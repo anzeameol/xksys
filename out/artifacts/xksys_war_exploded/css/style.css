@@ -1,0 +1,238 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: "microsoft sans serif";
+}
+body{
+	overflow: hidden;
+}
+.header{
+	height: 70px;
+	background-color: #1E90FF;
+}
+.header .logo{
+	background: url(../img/logo1.png) no-repeat;
+	height: 70px;
+	color: #FFFFFF;
+	line-height: 70px;
+	font-size: 25px;
+	padding-left: 80px;
+	font-weight: 800;
+	float: left;
+	width: 300px;
+}
+.header .user{
+	height: 70px;
+	color: #FFFFFF;
+	line-height: 70px;
+	font-weight: 800;
+	float: right;
+	margin-right: 0px;
+	padding: 0px 100px;
+	cursor: pointer;
+	text-decoration: underline;
+}
+.header .user ul{
+	list-style: none;
+	background-color: #FFFFFF;
+	border: 1px solid #EEEEEE;
+	box-shadow: 2px 2px 3px #CCCCCC;
+	position: absolute;
+	z-index: 999999;
+	display: none;
+}
+.header .user:hover ul{
+	display: block;
+}
+.header .user ul li{
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px dotted #CCCCCC;
+}
+.header .user ul li a{
+	color: #333333;
+	font-size: 15px;
+	padding: 0px 20px;
+	display: block;
+	text-decoration: none;
+}
+.header .user ul li a:hover{
+	background-color: #EEEEEE;
+}
+.left{
+	position: absolute;
+	background-color: #FFFFFF;
+	top: 70px;
+	width: 200px;
+	float: left;
+	border-right: 1px solid #000000;
+}
+.left .title{
+	height: 50px;
+	line-height: 50px;
+	background-color: #EEEEEE;
+	border-bottom: 1px solid #000000;
+	font-weight: bold;
+	text-align: center;
+}
+.menux p{
+	height: 40px;
+	line-height: 40px;
+	background-color: azure;
+	border-bottom: 1px solid #000000;
+	border-top: 1px solid #000000;
+	text-align: center;
+}
+.menux p:hover{
+	background-color: #1E90FF;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+.menux ul{
+	list-style: none;
+	display: none;
+}
+.menux ul li{
+	list-style: none;
+	height: 35px;
+	line-height: 35px;
+	border-bottom: 1px dotted #CCCCCC;
+	box-sizing: border-box;
+	text-align: center;
+}
+.menux ul li:hover{
+	background-color: #CCCCCC;
+}
+.menux ul li a{
+	display: block;
+	text-decoration: none;
+}
+.menux ul li a:hover{
+	color: #1E90FF;
+}
+.main{
+	position: absolute;
+	background-color: #FFFFFF;
+ 	left: 210px;
+ 	right: 0px;
+	bottom: 0px;
+	top: 70px;
+	float: right;
+}
+
+.location{
+	height: 40px;
+	line-height: 40px;
+	background-color: #FFFFFF;
+	border-bottom: #EEEEEE;
+}
+
+.condition{
+	background-color: #FFFFFF;
+	padding: 10px 5px;
+	margin-top: 10px;
+	border: 1px solid #F0FFFF;
+}
+.condition input{
+	height: 25px;
+	border: 1px solid #E0E0E0;
+}
+.tablelist{
+	margin-top: 10px;
+	width: 100%;
+	border: 1px solid #EEEEEE;
+	background-color: #FFFFFF;
+	border-collapse: collapse;
+}
+
+.tablelist th{
+	height: 30px;
+	border: 1px solid #CCCCCC;
+}
+
+.tablelist td{
+	height: 30px;
+	border: 1px solid #CCCCCC;
+}
+.tablelist tr:hover{
+	background-color: #EEEEEE;
+}
+.tablelist .edit{
+	background-color: transparent;
+	border: 1px solid transparent;
+	cursor: pointer;
+	color: #1E90FF;
+	size: a3;
+}
+.tablelist .edit:hover{
+	background-color: #CCCCCC;
+}
+.tablelist .remove{
+	background-color: transparent;
+	border: 1px solid transparent;
+	cursor: pointer;
+	color: #FF253A;
+}
+.tablelist .remove:hover{
+	background-color: #CCCCCC;
+}
+.page td{
+	padding-left: 10px;
+}
+.page button{
+	margin-right: 10px;
+	background-color: #EEEEEE;
+	color: #000000;
+	padding: 3px 5px;
+	font-size: 15px;
+	border: 1px solid;
+	cursor: pointer;
+}
+.page button:hover{
+	background-color: #CCCCCC;
+}
+.condition button{
+	font-size: 18px;
+	border: 1px solid #000000;
+	background-color: #EEEEEE;
+	padding: 3px 5px;
+}
+.condition button:hover{
+	background-color: #CCCCCC;
+}
+
+
+.add{
+	position: absolute;
+	background-color: #FFFFFF;
+	border: 1px solid #EEEEEE;
+	bottom: 10px;
+	left: 10px;
+	right: 10px;
+}
+
+.tableadd{
+	margin: 5px;
+}
+
+.tableadd td{
+	height: 25px;
+	padding-left: 2px;
+	color: #000000;
+}
+.tableadd td input{
+	height: 25px;
+	border: 1px solid #E0E0E0;
+}
+.tableadd td button{
+	margin-right: 10px;
+	background-color: #EEEEEE;
+	color: #000000;
+	padding: 3px 5px;
+	font-size: 15px;
+	border: 1px solid;
+	cursor: pointer;
+}
+.tableadd td button:hover{
+	background-color: #CCCCCC;
+}

@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="xksys:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/xksys_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="xksys" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="xksys/web/Web" />
+    </root>
+  </artifact>
+</component>
